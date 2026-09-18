@@ -8,10 +8,10 @@
 # Project metadata (used for documentation / review)
 # ======================================================
 project:
-  title: "OpenSUSI DESIGN CHIP 01"        # Project title (e.g. "Simple CPU", "PLL", "ADC")
+  title: "OpenSUSI DESIGN CHIP 03"        # Project title (e.g. "Simple CPU", "PLL", "ADC")
   author: "OpenSUSI"       # Your name
   discord: "noritsuna"      # Optional: Discord username (for support / communication)
-  description: "OpenSUSI DESIGN CHIP 01"  # Short one-line description
+  description: "OpenSUSI DESIGN CHIP 03"  # Short one-line description
 
 # ======================================================
 # Layout (GDS) configuration
@@ -21,7 +21,7 @@ gds:
   # - start with "tr_1um_"
   # - include your GitHub username (for uniqueness)
   # Example: tr_1um_jun1okamura
-  top_cell: "tr_1um_OpenSUSI01"
+  top_cell: "tr_1um_OpenSUSI03"
 
   # File extension of layout
   extension: "gds"
@@ -44,7 +44,7 @@ mdp:
   # Output GDS file name generated after MDP
   # Recommended:
   #   IP62_<github_username>.gds
-  file: "IP62_OpenSUSI01.gds"
+  file: "IP62_OpenSUSI03.gds"
 
 # ======================================================
 # PDK configuration (DO NOT MODIFY unless necessary)
